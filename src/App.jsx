@@ -4,7 +4,7 @@ import Home from "./component/Home"
 function App() { 
   
   return (
-    <Router>
+    <Router basename="/PortfolioRiad">
       <Routes>
         <Route path="/" element={<OnBoarding/>} />
         <Route path="/home" element={<Home/>} />
