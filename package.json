@@ -1,4 +1,5 @@
 {
+  "homepage": "https://riad-medghar.github.io/PortfolioRiad",
   "name": "storetemplate",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
